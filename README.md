@@ -1,6 +1,7 @@
 # Chaos
 README Section
 
+#Note: Please be aware that Task 3 requires a significant amount of time to compile, due to the complexity of the numerical methods employed and the high computational load.
 
 Task1
 
@@ -15,3 +16,4 @@ This script models a circuit using ordinary differential equations (ODEs) to exp
 Task3
 
 This script simulates the dynamics of a memristive circuit using a system of differential equations, with the goal of replicating a bifurcation diagram as a function of the parameter alpha. It employs the `deSolve` package in R to solve these equations and analyze system behavior. The script first defines the equations governing the circuit, then simulates its behavior over a set timeframe while varying \(\alpha\). It detects plane crossings to record significant state changes and generates a bifurcation diagram. Additionally, it conducts a fine-scale analysis around a critical \(\alpha\) value to observe subtle transitions and divergences. This detailed exploration helps in understanding the circuit's transition from periodic to chaotic behavior.
+
